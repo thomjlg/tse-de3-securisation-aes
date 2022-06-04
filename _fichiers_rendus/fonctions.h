@@ -1,0 +1,11 @@
+void SubBytes(int[4][4], int[256]);
+void ShiftRows(int[4][4]);
+void MixColumns(int[4]);
+void AddRoundKey(int[4][4], int[4][4]);
+void InvAddRoundKey(int[4][4], int[4][4]);
+void InvMixColumns(int[4]);
+void InvShiftRows(int[4][4]);
+void InvSubBytes(int[4][4], int[256]);
+void RotWord(int[4]);
+void SubWord(int[4], int[256]);
+void KeyExpansion(int, int[4][40], int[4][4], int[256], int);
